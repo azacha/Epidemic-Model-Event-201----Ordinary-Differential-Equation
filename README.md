@@ -18,7 +18,7 @@ infection:
 # viral parameter
  beta = transmission
  theta = float(theta) #fraction servere cases
- cfr = cfr # Case Fatality Risk
+ cfr = Case Fatality Risk
  phi = cfr/theta # case fatality risk, servere (All deads occure within severe compartment)
 
 # mean timespans per state
