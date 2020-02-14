@@ -18,14 +18,15 @@ infection:
   days = days to simulate,
   seed_Im = seed number of mild cases,
   seed_Is = seed number of servere cases
+
 # viral parameter
  beta = transmission,
- theta = float(theta) #fraction servere cases,
+ theta = fraction servere cases,
  cfr = Case Fatality Risk,
- phi = cfr/theta # case fatality risk, servere (All deads occure within severe compartment)
+ phi = cfr/theta # case fatality risk of severe cases (All deads occure within severe compartment)
 
 # mean timespans per state
-  k1 = incubation period, mild,
-  k2 = incubation period, servere,
+  k1 = incubation period of mild cases
+  k2 = incubation period of severe cases
   gamma = days to recover,
   alpha = days to outcome in servere,
