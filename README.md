@@ -3,7 +3,7 @@ An ordinary differential equation model for simulating a viral epidemic. The mod
 
 The	model	contains	six	compartments	representing	different	stages	of	
 infection:
-1) Susceptible -> incubating -> Infected mild or infected severe -> recovered or dead
+Susceptible -> incubating -> Infected mild or infected severe -> recovered or dead
 
 # start parameters
   N = Population Size,
