@@ -28,5 +28,5 @@ infection:
 # mean timespans per state
   k1 = incubation period of mild cases,
   k2 = incubation period of severe cases, 
-  gamma = days to recover,
-  alpha = days to outcome in servere
+  gamma = days to recover for mild cases,
+  alpha = days to outcome for servere cases
