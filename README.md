@@ -25,7 +25,7 @@ infection:
  cfr = Case Fatality Risk,
  phi = cfr/theta # case fatality risk of severe cases (All deads occure within severe compartment)
 
-# mean timespans per state
+# time parameters (mean duration of each stage)
   k1 = incubation period of mild cases,
   k2 = incubation period of severe cases, 
   gamma = days to recover for mild cases,
