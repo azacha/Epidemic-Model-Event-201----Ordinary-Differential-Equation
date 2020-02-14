@@ -55,7 +55,7 @@ class MODEL():
         '''transition dead'''
         return alpha*is_*phi
 
-    #transistions
+    #transition
     def runModel(self):
         for t in range(self.days):
             if t == self.days-1:
