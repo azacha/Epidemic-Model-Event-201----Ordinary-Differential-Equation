@@ -15,7 +15,7 @@ infection:
  beta = transmission,
  theta = fraction servere cases,
  cfr = Case Fatality Risk,
- phi = cfr/theta # case fatality risk of severe cases (All deads occure within severe compartment)
+ phi = cfr/theta # case fatality risk of severe cases (All deaths occure within severe compartment)
 
 # time parameters (mean duration of each stage)
   k1 = incubation period of mild cases,
