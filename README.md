@@ -26,7 +26,7 @@ infection:
  phi = cfr/theta # case fatality risk of severe cases (All deads occure within severe compartment)
 
 # mean timespans per state
-  k1 = incubation period of mild cases
-  k2 = incubation period of severe cases
+  k1 = incubation period of mild cases,
+  k2 = incubation period of severe cases, 
   gamma = days to recover,
-  alpha = days to outcome in servere,
+  alpha = days to outcome in servere
